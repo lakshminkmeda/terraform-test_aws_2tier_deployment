@@ -1,6 +1,7 @@
 # tf_test02_vpc_deployment
 Terraform: Deploy a Two-Tier Architecture
 
+Scenario:
 Your team needs you to diagram and deploy a two-tier architecture for your company. For the foundational project you are allowed to have all your code in a single main.tf file (known as a monolith) with hardcoded data.
 
 1. Deploy a VPC with CIDR 10.0.0.0/16 with 2 public subnets with CIDR 10.0.1.0/24 and 10.0.2.0/24. Each public subnet should be in a different AZ for high availability.
